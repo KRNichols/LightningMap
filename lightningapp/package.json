@@ -1,0 +1,25 @@
+{
+  "name": "lightningapp",
+  "version": "1.0.0",
+  "description": "Lightning app uses the WWLLN wide area senor network and the geolib package to determine if lightning strikes have occured at a defined place within a defined geo shape. This information is then outputted to terminal in JSON format. ",
+  "main": "Lightning.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NHJAX/lightningapp.git"
+  },
+  "author": "Kevin Nichols, Alex Rangeo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NHJAX/lightningapp/issues"
+  },
+  "homepage": "https://github.com/NHJAX/lightningapp#readme",
+  "dependencies": {
+    "cron": "^1.7.1",
+    "geolib": "^3.0.3",
+    "request": "^2.88.0",
+    "util": "^0.12.0"
+  }
+}
